@@ -11,9 +11,9 @@ c=x+y;
 public static void main(String[] args)
 {
 Scanner obj = new Scanner(System.in);
-System.out.println("enter num:");
+System.out.println("enter the num:");
 int a = obj.nextInt();
-System.out.println("enter num:");
+System.out.println("enter the num:");
 int b = obj.nextInt();
 main myobj = new main(a,b);
 System.out.println(myobj.c);
